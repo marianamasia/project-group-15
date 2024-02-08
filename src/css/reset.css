@@ -33,3 +33,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.container {
+  width: 100%;
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
