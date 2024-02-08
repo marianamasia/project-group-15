@@ -5,6 +5,7 @@
   line-height: 1;
   letter-spacing: -0.02em;
   color: #fbfbfb;
+  margin-bottom: 50px;
 }
 .user-form{
   width: 100%;
@@ -14,11 +15,15 @@
   outline: transparent;
   background-color: transparent;
   padding-left: 18px;
+  margin-bottom: 18px;
 }
-
+.user-form:focus, .form-comment:focus{
+  color: #FBFBFB;
+border-color: rgba(251, 251, 251, 0.5);;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
 .inputs{
   display: block;
-  margin-bottom: 18px;
 }
 
 .input::placeholder{
@@ -49,10 +54,15 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
   border-radius: 15px;
+  border: none;
   padding: 18px 75px;
   min-width: 194px;
   height: 56px;
   display: block;
   margin-top: 50px;
   background-color: #1b414b;
+}
+.submit-btn-rent:hover, .submit-btn-rent:focus{
+  background-color:#FBFBFB ;
+  color:#1B414B ;
 }
