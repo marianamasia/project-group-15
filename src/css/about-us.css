@@ -8,6 +8,8 @@ body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   color: #1b414b;
+  font-weight: 400;
+  letter-spacing: -0.02em;
 }
 
 a {
@@ -44,4 +46,47 @@ img {
   display: block;
 }
 
-/* ++++++++++COMMON-STYLES++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.about-us {
+  padding: 100px 0;
+url()
+
+
+
+
+
+}
+.container {
+  max-width: 320px;
+  padding: 0 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-about-us {
+  border-radius: 24px;
+  /* background: #fbfbfb; */
+  background-color: aqua;
+  margin: auto;
+  padding: 20px;
+}
+
+.adventure-about-us {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+.technology-about-us {
+  font-size: 18px;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+.selection-about-us {
+  font-size: 13px;
+  line-height: 1.15;
+  color: #040306;
+  margin-bottom: 12px;
+  /* opacity: 0.4; */
+}
