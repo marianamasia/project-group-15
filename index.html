@@ -2,9 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/project-group-15/favicon.svg" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/project-group-15/assets/apple-touch-icon-79d6d9cf.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABMlBMVEUAAAAcQ04aQUwcQUsbQUsaQUsbQkocPkokSUkbQUsbQUsbQUsbQUobQUsbQUsbQUsdQEsaQUsbQEsbQUsbQUscQUsbQUsbQUoeQU0cQEsbQEsrVVUbQUsbQUs1V19IZm4iR1EyVF0mSlNBYWlHZW1NanL6+vqMn6QfRE7V293c4eMhRlAvUVv3+Pj7+/tGZW2ntbnz9PU2V2B6j5Vadn18kpf4+fnv8fKYqa3t7/Ctur4qTlfq7e60wMTO1de/ycyks7fl6OkeQ01RbXWcrbE4WWE7XGRxiI5Xc3pZdHvT2tza4OGKnaKOoaX29/fm6eqpt7pQbXTd4uMcQkze4+S2wsWcrLDx8/OgsLRqg4ry9PRngIdmf4bg5ea7xsggRU+TpaowUltifIJhe4J7kZf///9ZdDESAAAAHXRSTlMALpHV9NSQLQeY/ZbAv5X8LJKP8/Lx040rk74Gjp816RgAAAABYktHRGW13YifAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAB3RJTUUH6AIJChsHC870SgAAARxJREFUOMtjYAACRiZmFlk0wMLKxs4AARycXLJYARc3B1ieRxYn4AWp4JTFA/iA9nPhU8AvwCAoixcIMTDjV8DKIIxfgQiDLAFAtAI5eQUQpSivJCurrIJFgaqaOpDU0NTSltXR1dPHYoWBoZGsrLGeiaysqZm5BRYFOpZWstY2tkCWnb2DoxMWR5rqObsYusrKuum5e+h5YlGg4eWt6wOkff2snfwDsHkzUC0I6JPgkFBZ2bBwJWzhYBkBUqYHBpE4FURERcfExMTG4VIQb2MFYiboJuJQkKSXDGLq66WQGhcUKCCQYEQJJTkxBjb8CsQZ2PEnewkGBm58CiRBWY8Xt7yUNDhz8vHjMF9SGpq/BYRYMXwrLCYjAZIDABuPeoypHcpCAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI0LTAyLTA5VDEwOjI3OjA3KzAwOjAwG+qAnQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNC0wMi0wOVQxMDoyNzowNyswMDowMGq3OCEAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAV3pUWHRSYXcgcHJvZmlsZSB0eXBlIGlwdGMAAHic4/IMCHFWKCjKT8vMSeVSAAMjCy5jCxMjE0uTFAMTIESANMNkAyOzVCDL2NTIxMzEHMQHy4BIoEouAOoXEXTyQjWVAAAAAElFTkSuQmCC"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAApVBMVEUAAAAaQE0cQUsbQUscQkoaQUgbQUsbQUscQUsbQUsbQUsbQUsbQEkaQEsbQUsvUVt8kpccQkyLnqMfRU9he4Jpgoitur5GZW1qg4qKnaLAys3EzdA0Vl+9yMsiR1FAX2iksraVp6tNanKUpqpvh42Ro6isur2ltLierrKEmJ5eeYAdQkzL09U5WmM4WWLJ0tQgRU9TcHc+XmZqgolifII2V2D///8xmntJAAAADnRSTlMAKLDyryfvrfHwqewcrvXjfMsAAAABYktHRDZHv4jRAAAACXBIWXMAAAdhAAAHYQGVw7i2AAAAB3RJTUUH6AIJChsHC870SgAAAHxJREFUGNNdz0kSgkAQRNGEpgERE3BGBEdwnvH+VzOMMEqav3ybqgQsW/GXcjRguWzkatg08qBM8MFWX4hiJv3BcCTA8WSacpYlAvM8KxbL1VqAmy3Larf/w+F4Ol+ut7vA4xm9yPot0DzbeqwDx4QA2hjXDQHd82VIEOIDOkwQCnlU/5MAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjQtMDItMDlUMTA6Mjc6MDcrMDA6MDAb6oCdAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI0LTAyLTA5VDEwOjI3OjA3KzAwOjAwarc4IQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAABXelRYdFJhdyBwcm9maWxlIHR5cGUgaXB0YwAAeJzj8gwIcVYoKMpPy8xJ5VIAAyMLLmMLEyMTS5MUAxMgRIA0w2QDI7NUIMvY1MjEzMQcxAfLgEigSi4A6hcRdPJCNZUAAAAASUVORK5CYII="
+    />
+    <link rel="manifest" href="data:application/manifest+json;base64,ewogICAgIm5hbWUiOiAiIiwKICAgICJzaG9ydF9uYW1lIjogIiIsCiAgICAiaWNvbnMiOiBbCiAgICAgICAgewogICAgICAgICAgICAic3JjIjogIi9hbmRyb2lkLWNocm9tZS0xOTJ4MTkyLnBuZyIsCiAgICAgICAgICAgICJzaXplcyI6ICIxOTJ4MTkyIiwKICAgICAgICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgICAic3JjIjogIi9hbmRyb2lkLWNocm9tZS01MTJ4NTEyLnBuZyIsCiAgICAgICAgICAgICJzaXplcyI6ICI1MTJ4NTEyIiwKICAgICAgICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgICAgIH0KICAgIF0sCiAgICAidGhlbWVfY29sb3IiOiAiI2ZmZmZmZiIsCiAgICAiYmFja2dyb3VuZF9jb2xvciI6ICIjZmZmZmZmIiwKICAgICJkaXNwbGF5IjogInN0YW5kYWxvbmUiCn0K" />
+    <link rel="mask-icon" href="/project-group-15/assets/safari-pinned-tab-5191b190.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
     
     <link rel="stylesheet" href="/project-group-15/assets/index-6c61933e.css">
   </head>
