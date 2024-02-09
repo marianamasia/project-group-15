@@ -1,0 +1,42 @@
+body {
+  background-color: linear-gradient(
+    360deg,
+    #11131f 15.05%,
+    rgba(17, 19, 31, 0.39) 75.3%,
+    rgba(17, 19, 31, 0) 98.27%
+  );
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+img {
+  display: block;
+}
