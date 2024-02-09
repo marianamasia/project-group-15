@@ -5,6 +5,9 @@ body {
     rgba(17, 19, 31, 0.39) 75.3%,
     rgba(17, 19, 31, 0) 98.27%
   );
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  color: #1b414b;
 }
 
 a {
@@ -40,3 +43,5 @@ ol {
 img {
   display: block;
 }
+
+/* ++++++++++COMMON-STYLES++++++++++++++++++++ */
