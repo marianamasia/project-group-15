@@ -34,9 +34,10 @@ a {
   cursor: pointer;
   padding: 0;
 }
+
 a:hover,
 a:focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 button {
