@@ -1,63 +1,13 @@
-body {
-  background-color: linear-gradient(
-    360deg,
-    #11131f 15.05%,
-    rgba(17, 19, 31, 0.39) 75.3%,
-    rgba(17, 19, 31, 0) 98.27%
-  );
+.about-us {
+  background-color: darkblue;
+  padding: 100px 0;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   color: #1b414b;
   font-weight: 400;
   letter-spacing: -0.02em;
 }
-
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style-type: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-.section {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-img {
-  display: block;
-}
-
-/* +++++++++++++++++++++++++++++++++++++++++++++++ */
-
-.about-us {
-  padding: 100px 0;
-url()
-
-
-
-
-
-}
-.container {
+.container-about-us {
   max-width: 320px;
   padding: 0 16px;
   margin-left: auto;
@@ -66,9 +16,9 @@ url()
 
 .text-about-us {
   border-radius: 24px;
-  /* background: #fbfbfb; */
-  background-color: aqua;
-  margin: auto;
+  background: #fbfbfb;
+
+  margin: 0 auto 14px;
   padding: 20px;
 }
 
@@ -89,4 +39,45 @@ url()
   color: #040306;
   margin-bottom: 12px;
   /* opacity: 0.4; */
+}
+
+/* =================MEDIA-TABLET==================== */
+@media screen and (min-width: 768px) {
+  .container-about-us {
+    max-width: 768px;
+  }
+  .text-about-us {
+    padding: 36px 84px 20px 84px;
+  }
+
+  .adventure-about-us {
+    font-size: 48px;
+  }
+  .small-text-about-us {
+    padding: 0 207px 0 0;
+  }
+  .technology-about-us {
+    font-size: 23px;
+  }
+}
+/* ==================MEDIA-DESK====================== */
+@media screen and (min-width: 1158px) {
+  .container-about-us {
+    max-width: 1158px;
+  }
+  .text-about-us {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 20px 50px;
+  }
+  .adventure-about-us {
+    width: 537px;
+  }
+  .small-text-about-us {
+    padding: 0;
+    width: 354px;
+  }
+  .selection-about-us {
+    width: 324px;
+  }
 }
