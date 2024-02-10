@@ -1,5 +1,5 @@
 .reviews {
-  width: 335px;
+  width: 375px;
   padding: 40px 20px;
   background: #0e1823;
 }
@@ -28,17 +28,17 @@
   margin-bottom: 40px;
 }
 .reviews-list {
+  min-width: 320px;
 }
 .reviews-item {
   border-radius: 24px;
   padding: 32px 8px;
-  width: 335px;
   background-color: #fbfbfb;
   padding: 32px 8px;
 }
 .reviews-img {
   border-radius: 50%;
-  margin-bottom: 24px;
+  margin: 0 auto;
 }
 .reviews-item-two {
   display: none;
