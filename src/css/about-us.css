@@ -1,42 +1,96 @@
-body {
-  background-color: linear-gradient(
-    360deg,
-    #11131f 15.05%,
-    rgba(17, 19, 31, 0.39) 75.3%,
-    rgba(17, 19, 31, 0) 98.27%
-  );
+.about-us {
+  padding: 100px 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  color: #1b414b;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+.container-about-us {
+  max-width: 320px;
+  padding: 0 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-a {
-  text-decoration: none;
+.text-foto-about-us {
+  flex-direction: column;
+  border-radius: 24px;
+  background: #fbfbfb;
+  margin: 0 auto 14px;
 }
 
-li {
-  list-style-type: none;
+.text-about-us {
+  padding: 40px 20px;
+}
+.adventure-about-us {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  margin-bottom: 40px;
+}
+.technology-about-us {
+  font-size: 18px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+.selection-about-us {
+  font-size: 13px;
+  line-height: 1.15;
+  color: #040306;
+  opacity: 0.4;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
+/* =================MEDIA-TABLET==================== */
+@media screen and (min-width: 768px) {
+  .container-about-us {
+    max-width: 768px;
+  }
+  .text-foto-about-us {
+    flex-direction: row;
+    padding: 36px 0 0 0;
+  }
+  .text-about-us {
+    padding: 0 136px 58px 32px;
+  }
+  .adventure-about-us {
+    font-size: 48px;
+    margin: 0;
+    padding: 0 0 50px 0;
+  }
+  .small-text-about-us {
+    padding: 0 240px 0 0;
+  }
+  .technology-about-us {
+    font-size: 23px;
+    padding: 0 0 20px 0;
+    margin: 0;
+  }
 }
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-.section {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-img {
-  display: block;
+/* ==================MEDIA-DESK====================== */
+@media screen and (min-width: 1158px) {
+  .container-about-us {
+    max-width: 1158px;
+  }
+  .text-foto-about-us {
+    padding: 50px 0 0 0;
+  }
+  .text-about-us {
+    justify-content: space-between;
+    display: flex;
+    padding: 0 50px 100px 50px;
+  }
+  .adventure-about-us {
+    width: 537px;
+  }
+  .small-text-about-us {
+    padding: 0;
+    width: 354px;
+  }
+  .technology-about-us {
+    padding: 0 0 15px 0;
+  }
+  .selection-about-us {
+    width: 324px;
+  }
 }
