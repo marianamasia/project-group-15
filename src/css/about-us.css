@@ -9,26 +9,26 @@
 .container-about-us {
   max-width: 320px;
   padding: 0 16px;
-/* +++++++++++ABOUT-US-STYLES+++++++++++++++ */
-.about-us {
-  padding-top: 0;
-}
-.container-about-us {
-  padding: 0 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  /* +++++++++++ABOUT-US-STYLES+++++++++++++++ */
+  .about-us {
+    padding-top: 0;
+  }
+  .container-about-us {
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.text-foto-about-us {
-  flex-direction: column;
-  border-radius: 24px;
-  background: #fbfbfb;
-  margin: 0 auto 14px;
-}
+  .text-foto-about-us {
+    flex-direction: column;
+    border-radius: 24px;
+    background: #fbfbfb;
+    margin: 0 auto 14px;
+  }
 
-.text-about-us {
-  padding: 40px 20px;
-}
+  .text-about-us {
+    padding: 40px 20px;
+  }
   position: relative;
   top: -59px;
 }
@@ -125,8 +125,6 @@
   }
   .selection-about-us {
     width: 324px;
-  }
-}
     padding: 0 32px;
   }
 
