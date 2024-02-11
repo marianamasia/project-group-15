@@ -30,6 +30,7 @@
 
   .text-about-us {
     padding: 40px 15px;
+    padding: 40px 20px;
   }
   position: relative;
   top: -59px;
@@ -127,6 +128,7 @@
   }
   .selection-about-us {
     width: 324px;
+    padding: 0 32px;
   }
 
   .text-foto-about-us {
