@@ -152,7 +152,7 @@
   }
 }
 /* ==================MEDIA-DESK====================== */
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
   .container-about-us {
     max-width: 1280px;
     padding: 0 50px;
@@ -185,5 +185,5 @@
   .selection-about-us {
     width: 354px;
   }
-}
+} */
 /* ++++++++++++++END-ABOUT-US-STYLES++++++++++++++++++ */
