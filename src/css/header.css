@@ -1,21 +1,37 @@
 .header {
-  padding: 20px 0;
+}
+.header-countainer {
+}
+.header-text-logo {
+}
+.header-nav {
+}
+.header-nav-list {
+}
+.header-nav-item {
+}
+.header-nav-link {
+}
+.header-list {
+}
+.header-list-item {
+}
+.header-list-link {
+}
+.header-icon {
+}
+/* mobile (375px) */
+@media only screen and (max-width: 375px) {
 }
 
-.nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+/* tablet (768px) */
+@media only screen and (min-width: 376px) and (max-width: 768px) {
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+/* desktop (1280px) */
+@media only screen and (min-width: 769px) and (max-width: 1280px) {
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+/* desktop (1440px) */
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
 }
