@@ -1,9 +1,9 @@
 .reviews {
-  width: 375px;
-  padding: 40px 20px;
-  background: #0e1823;
 }
 .reviews-conteiner {
+  width: 375px;
+  padding: 40px 20px;
+  margin: 0 auto;
 }
 .reviews-title {
   font-weight: 500;
@@ -12,7 +12,6 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
-  padding: 40px;
   margin-bottom: 25px;
 }
 
@@ -23,7 +22,6 @@
   text-align: center;
   color: #fbfbfb;
   opacity: 0.4;
-  padding: 10px;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -37,7 +35,6 @@
   padding: 32px 8px;
 }
 .reviews-img {
-  border-radius: 50%;
   margin: 0 auto;
 }
 .reviews-item-two {
@@ -55,6 +52,8 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #040306;
+  margin-bottom: 8px;
+  margin-top: 24px;
 }
 .reviews-essence {
   font-size: 16px;
@@ -64,4 +63,76 @@
   color: rgba(4, 3, 6, 0.4);
   margin-bottom: 8px;
   padding: 0 8px;
+}
+@media screen and (min-width: 768px) {
+  .reviews-conteiner {
+    width: 768px;
+    padding: 75px 32px;
+  }
+  .reviews-title {
+    font-size: 48px;
+  }
+  .reviews-info {
+    font-size: 14px;
+    line-height: 1.29;
+    padding: 0 66px;
+    margin-bottom: 75px;
+  }
+  .reviews-list {
+    display: flex;
+    gap: 32px;
+  }
+  .reviews-item {
+    width: calc((100% - 32px) / 2);
+  }
+  .reviews-item-two {
+    display: block;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .reviews-conteiner {
+    width: 1280px;
+    padding: 75px 50px;
+  }
+  .reviews-title {
+    padding: 0 163px;
+  }
+  .reviews-info {
+    padding: 0 305px;
+  }
+  .reviews-list {
+    gap: 26px;
+  }
+  .reviews-item {
+    width: calc((100% - 26px) / 3);
+    padding: 32px 28px;
+  }
+  .reviews-item-three {
+    display: block;
+    padding: 32px 33px;
+  }
+  .reviews-essence {
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .reviews-conteiner {
+    width: 1440px;
+    padding: 75px 100px;
+  }
+  .reviews-list {
+    gap: 32px;
+  }
+  .reviews-item {
+    width: calc((100% - 32px) / 3);
+  }
+  .reviews-title {
+    padding: 0 193px;
+  }
+  .reviews-info {
+    padding: 0 335px;
+  }
+  .reviews-item-three {
+    padding: 32px 41px;
+  }
 }
