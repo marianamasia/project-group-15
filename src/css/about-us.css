@@ -1,6 +1,4 @@
 .about-us {
-  /* background-color: darkblue; */
-  background-color: #0e1823;
   padding: 100px 0;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -15,30 +13,31 @@
   margin-right: auto;
 }
 
-.text-about-us {
+.text-foto-about-us {
+  flex-direction: column;
   border-radius: 24px;
   background: #fbfbfb;
-
   margin: 0 auto 14px;
-  padding: 20px;
 }
 
+.text-about-us {
+  padding: 40px 20px;
+}
 .adventure-about-us {
   font-weight: 500;
   font-size: 28px;
   line-height: 1;
-  margin-bottom: 12px;
+  margin-bottom: 40px;
 }
 .technology-about-us {
   font-size: 18px;
   line-height: 1;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 .selection-about-us {
   font-size: 13px;
   line-height: 1.15;
   color: #040306;
-  margin-bottom: 12px;
   opacity: 0.4;
 }
 
@@ -47,18 +46,25 @@
   .container-about-us {
     max-width: 768px;
   }
-  .text-about-us {
-    padding: 36px 84px 20px 84px;
+  .text-foto-about-us {
+    flex-direction: row;
+    padding: 36px 0 0 0;
   }
-
+  .text-about-us {
+    padding: 0 136px 58px 32px;
+  }
   .adventure-about-us {
     font-size: 48px;
+    margin: 0;
+    padding: 0 0 50px 0;
   }
   .small-text-about-us {
-    padding: 0 207px 0 0;
+    padding: 0 240px 0 0;
   }
   .technology-about-us {
     font-size: 23px;
+    padding: 0 0 20px 0;
+    margin: 0;
   }
 }
 /* ==================MEDIA-DESK====================== */
@@ -66,10 +72,13 @@
   .container-about-us {
     max-width: 1158px;
   }
+  .text-foto-about-us {
+    padding: 50px 0 0 0;
+  }
   .text-about-us {
-    display: flex;
     justify-content: space-between;
-    padding: 50px 50px 20px 50px;
+    display: flex;
+    padding: 0 50px 100px 50px;
   }
   .adventure-about-us {
     width: 537px;
@@ -77,6 +86,9 @@
   .small-text-about-us {
     padding: 0;
     width: 354px;
+  }
+  .technology-about-us {
+    padding: 0 0 15px 0;
   }
   .selection-about-us {
     width: 324px;
