@@ -1,3 +1,4 @@
+/* +++++++++++ABOUT-US-STYLES+++++++++++++++ */
 .about-us {
   padding-top: 0;
 }
@@ -17,7 +18,7 @@
 }
 
 .text-about-us {
-  padding: 40px 20px;
+  padding: 40px 15px;
 }
 
 .adventure-about-us {
@@ -109,7 +110,7 @@
 
   .small-text-about-us {
     padding: 0;
-    width: 354px;
+    width: 364px;
   }
 
   .technology-about-us {
@@ -120,3 +121,4 @@
     width: 354px;
   }
 }
+/* ++++++++++++++END-ABOUT-US-STYLES++++++++++++++++++ */
