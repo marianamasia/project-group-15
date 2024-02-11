@@ -1,8 +1,10 @@
 
 .rent-container{
+  padding-top: 80px;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
+  display: flex;
   flex-direction: column;
 }
 
@@ -95,6 +97,7 @@
 
 @media screen and (min-width: 768px) {
   .rent-container {
+    padding-top: 150px;
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
@@ -109,7 +112,9 @@
     padding-left: 148px;
     padding-right: 147px;
   }
-
+.user-form{
+  height: 54px;
+}
   .user-form::placeholder, .form-comment::placeholder {
     font-size: 14px;
     line-height: 1.28571;
@@ -138,24 +143,29 @@
     max-width: 1280px;
     padding-left: 50px;
     padding-right: 50px;
-    display: flex;
     align-items: center;
     flex-direction: row;
   }
  
   .form-text {
+    padding-right: 0;
     order: 2;
     flex: 1;
     padding-left: 50px;
+    padding-bottom: 8px;
   }
 
   .picture-rent {
+    min-height: 536px;
+    max-width: 658px;
     display: inline-block;
-    margin-bottom: 98px;
+  } 
+
+  .rent-img{
+    margin-top: 0;
+    width: auto;
+    height: 100%;  
   }
 
-  .rent-img {
-    width: auto;
-    height: 100%;
-  }
+
 }
