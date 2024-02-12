@@ -2,7 +2,7 @@
 }
 .our-yachts-container {
   width: 320px;
-  padding: 40px 20px;
+  padding: 21px 20px 40px;
   margin: 0 auto;
   background-color: #0e1823;
   position: relative;
@@ -114,7 +114,7 @@ th {
 @media screen and (min-width: 768px) {
   .our-yachts-container {
     width: 768px;
-    padding: 75px 32px;
+    padding: 83px 32px 75px;
   }
   .our-yachts-list-two {
     display: block;
