@@ -2,7 +2,7 @@
 
 .hero-page {
   padding-top: 260px;
-  padding-bottom: 243px;
+  padding-bottom: 302px;
   background-image: linear-gradient(
       360deg,
       #11131f 15.05%,
@@ -12,7 +12,6 @@
     url(/img/hero-bg-mob-1x.png);
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 100vh; */
   background-position: 50% 50%;
 }
 
@@ -89,7 +88,7 @@
 @media screen and (min-width: 768px) {
   .hero-page {
     padding-top: 280px;
-    padding-bottom: 215px;
+    padding-bottom: 282px;
     background-image: linear-gradient(
         360deg,
         #11131f 15.05%,
@@ -140,7 +139,7 @@
 @media screen and (min-width: 1280px) {
   .hero-page {
     padding-top: 235px;
-    padding-bottom: 180px;
+    padding-bottom: 215px;
     background-image: linear-gradient(
         360deg,
         #11131f 15.05%,
