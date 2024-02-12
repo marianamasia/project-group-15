@@ -1,5 +1,3 @@
-.our-yachts-section {
-}
 .our-yachts-container {
   width: 320px;
   padding: 40px 20px;
@@ -31,9 +29,10 @@
 }
 .our-yachts-picture {
   display: block;
-  width: 302px;
-  height: 240px;
+  max-width: 302px;
+  max-height: 240px;
 }
+
 .our-yachts-img {
   padding: 16px 16px 0 16px;
 }
@@ -46,9 +45,7 @@
 .our-yachts-tbody {
   margin-top: 32px;
 }
-th {
-  text-align: left;
-}
+
 .our-yachts-name {
   font-size: 12px;
   line-height: 1.17;
@@ -116,17 +113,18 @@ th {
     width: 768px;
     padding: 75px 32px;
   }
-  .our-yachts-list-two {
-    display: block;
-  }
+
   .our-yachts {
     flex-direction: row;
     gap: 32px;
   }
   .our-yachts-title {
-    width: calc((100% - 32px) / 2);
+    max-width: calc((100% - 32px) / 2);
     font-size: 48px;
     margin-bottom: 75px;
+  }
+  .our-yachts-list-two {
+    display: block;
   }
   .our-yachts-name {
     font-weight: 500;
