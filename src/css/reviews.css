@@ -24,7 +24,7 @@
   margin-bottom: 40px;
 }
 .reviews-list {
-  min-width: 320px;
+  max-width: 375px;
 }
 .reviews-item {
   border-radius: 24px;
