@@ -1,7 +1,6 @@
 
 .container {
   width: 100%;
-  max-width: 375px;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
@@ -148,7 +147,7 @@
     margin-left: auto;
     
   }
-
+  
   .form-text {
     order: 2;
     flex: 1;
