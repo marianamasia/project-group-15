@@ -150,6 +150,7 @@
   }
   
   .form-text {
+    padding: 0;
     order: 2;
     flex: 1;
     padding-left: 50px;
