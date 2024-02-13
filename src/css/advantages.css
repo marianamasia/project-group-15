@@ -3,7 +3,7 @@
 .advantages-container {
   min-width: 320px;
   max-width: 375px;
-  padding: 80px 20px;
+  padding: 40px 20px 80px;
   display: flex;
   flex-direction: column;
 }
@@ -69,7 +69,7 @@
 @media screen and (min-width: 768px) {
   .advantages-container {
     min-width: 768px;
-    padding: 150px 32px;
+    padding: 75px 32px 150px;
   }
 
   .advantages-list-wrapper {
@@ -114,7 +114,7 @@
 @media screen and (min-width: 1280px) {
   .advantages-container {
     max-width: 1280px;
-    padding: 150px 50px;
+    padding: 75px 50px 150px;
     flex-direction: row;
     column-gap: 32px;
   }

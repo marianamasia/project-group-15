@@ -1,6 +1,6 @@
 .header {
   position: absolute;
-  top: 20px;
+  top: 0px;
   left: 20px;
   right: 20px;
   z-index: 99999999999;
@@ -195,6 +195,7 @@
   .header-countainer {
     margin-left: 28px;
     margin-right: 28px;
+    margin-top: 32px;
   }
 
   .header-list {
@@ -272,6 +273,7 @@
   .header-countainer {
     margin-left: 30px;
     margin-right: 30px;
+    margin-top: 32px;
   }
 
   .header-list {
@@ -346,6 +348,7 @@
     color: #fbfbfb;
   }
   .header-countainer {
+    margin-top: 32px;
     margin-left: 30px;
     margin-right: 30px;
   }
@@ -361,4 +364,4 @@
   .header-icon:focus {
     fill: #062730;
   }
-
+}
