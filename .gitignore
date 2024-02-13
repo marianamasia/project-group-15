@@ -22,3 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+src/partials/our-yachts.html
+src/css/our-yachts.css
