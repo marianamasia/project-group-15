@@ -21,7 +21,8 @@
 
   .text-foto-about-us {
     flex-direction: column;
-    border-radius: 24px;
+    /* border-radius: 24px; */
+    border-radius: 24px 24px 5px 5px;
     background: #fbfbfb;
     margin: 0 auto 14px;
   }
@@ -72,6 +73,9 @@
   letter-spacing: -0.02em;
   color: #040306;
   opacity: 0.4;
+}
+.about-us-yacht {
+  border-radius: 24px 24px 5px 5px;
 }
 
 /* =================MEDIA-TABLET==================== */
