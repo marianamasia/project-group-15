@@ -8,6 +8,7 @@
 }
 
 .rent-title {
+  margin-top: 40px;
   font-weight: 500;
   font-size: 28px;
   line-height: 1;
@@ -91,6 +92,7 @@
   margin-top: 80px;
   width: 100%;
   border-radius: 24px;
+  margin-bottom: 40px;
 
 }
 
@@ -102,6 +104,7 @@
   }
 
   .rent-title {
+    margin-top: 76px;
     font-size: 48px;
     margin-bottom: 50px;
   }
@@ -122,6 +125,7 @@
   }
   .rent-img {
     margin-top: 100px;
+    margin-bottom: 75px;
   }
 
   .submit-btn-rent {
@@ -146,10 +150,10 @@
     align-items: center;
     margin-right: auto;
     margin-left: auto;
-    
   }
   
   .form-text {
+    padding: 0;
     order: 2;
     flex: 1;
     padding-left: 50px;
@@ -161,6 +165,7 @@
   }
 
   .rent-img {
+    margin-top: 0;
     width: auto;
     height: 100%;
   }
