@@ -1,6 +1,7 @@
 .reviews-conteiner {
-  width: 320px;
-  padding: 80px 20px;
+  min-width: 320px;
+  max-width: 375px;
+  padding: 40px 20px;
   margin: 0 auto;
 }
 .reviews-title {
@@ -63,8 +64,8 @@
 }
 @media screen and (min-width: 768px) {
   .reviews-conteiner {
-    width: 768px;
-    padding: 150px 32px;
+    max-width: 768px;
+    padding: 75px 32px;
   }
   .reviews-title {
     font-size: 48px;
@@ -91,8 +92,8 @@
 }
 @media screen and (min-width: 1280px) {
   .reviews-conteiner {
-    width: 1280px;
-    padding: 150px 50px;
+    max-width: 1280px;
+    padding: 75px 50px;
   }
   .reviews-title {
     padding: 0 163px;
