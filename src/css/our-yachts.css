@@ -1,6 +1,6 @@
 .our-yachts-container {
   width: 320px;
-  padding: 40px 20px;
+  padding: 21px 20px 40px;
   margin: 0 auto;
   background-color: #0e1823;
   position: relative;
@@ -41,8 +41,12 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 32px;
+  border: #040306;
 }
 .our-yachts-tbody {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
   margin-top: 32px;
 }
 
@@ -57,7 +61,7 @@
 }
 .our-yachts-name:after {
   content: '';
-  max-width: 272px;
+  width: 272px;
   height: 0.1px;
   background-color: #040306;
   opacity: 0.4;
@@ -76,7 +80,6 @@
   color: #04030660;
   display: flex;
   justify-content: space-between;
-  text-align: left;
 }
 .our-yachts-characteristics span {
   margin-bottom: 6px;
@@ -101,6 +104,7 @@
   align-items: center;
   flex-direction: row;
 }
+
 .our-yachts-list-two {
   display: none;
 }
@@ -111,13 +115,22 @@
 @media screen and (min-width: 768px) {
   .our-yachts-container {
     width: 768px;
-    padding: 75px 32px;
+    padding: 83px 32px 75px;
+  }
+
+  .our-yachts-list-two {
+    display: block;
+  }
+  .our-yachts-list {
+    width: calc((100% - 32px) / 2);
+    max-width: 768px;
   }
 
   .our-yachts {
     flex-direction: row;
     gap: 32px;
   }
+
   .our-yachts-title {
     max-width: calc((100% - 32px) / 2);
     font-size: 48px;
@@ -142,5 +155,49 @@
   .our-yachts-picture {
     width: 336px;
     height: 268px;
+  }
+  .our-yachts-yakir-conteiner {
+    margin: 50px auto 0;
+    width: 179px;
+    height: 52px;
+  }
+  .our-yachts-yakir {
+    font-size: 18px;
+    line-height: 110%;
+    padding: 16px 39px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .our-yachts-container {
+    width: 1280px;
+    padding: 106px 50px 0 49px;
+  }
+  .our-yachts-title {
+    padding: 75px 233px;
+    margin-bottom: 0;
+  }
+  .our-yachts-list-three {
+    display: block;
+  }
+  .our-yachts-list {
+    width: calc((100% - 25px) / 3);
+    max-width: 1280px;
+  }
+  .our-yachts {
+    gap: 25px;
+  }
+  .our-yachts-picture {
+    width: 377px;
+    height: 268px;
+  }
+  .our-yachts-name:after {
+    width: 313px;
+  }
+  .our-yachts-yakir-conteiner:hover {
+    background-color: #fbfbfb;
+    bottom: none;
+  }
+  .our-yachts-yakir:hover {
+    color: #1b414b;
   }
 }
