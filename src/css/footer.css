@@ -55,10 +55,6 @@
   align-items: center;
 }
 
-.footer-nav-link:hover,
-.footer-nav-link:focus {
-}
-
 .footer-list {
   display: inline-flex;
   justify-content: center;
