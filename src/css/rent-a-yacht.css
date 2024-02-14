@@ -1,8 +1,10 @@
 .rent-container {
-  max-width: 320px;
+  min-width: 320px;
+  max-width: 375px;
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 40px;
   margin: 0 auto;
 }
 
@@ -34,7 +36,7 @@
 
 .user-form:focus,
 .form-comment:focus {
-  color: #FBFBFB;
+  color: #fbfbfb;
   border-color: rgba(251, 251, 251, 0.5);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
@@ -82,34 +84,30 @@
 
 .submit-btn-rent:hover,
 .submit-btn-rent:focus {
-  background-color: #FBFBFB;
-  color: #1B414B;
+  background-color: #fbfbfb;
+  color: #1b414b;
 }
 
 .rent-img {
   margin-top: 80px;
   width: 100%;
   border-radius: 24px;
-
 }
 
 @media screen and (min-width: 768px) {
-  .rent-container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-
   .rent-title {
     font-size: 48px;
     margin-bottom: 50px;
   }
-.user-form {
-  height: 54px;
-}
+
+  .rent-container {
+    max-width: 768px;
+    padding: 0;
+  }
+
   .form-text {
-    padding-left: 148px;
-    padding-right: 147px;
+    padding: 0 120px 0 120px;
+    margin: 0 auto;
   }
 
   .user-form::placeholder,
@@ -149,6 +147,9 @@
     align-items: center;
     margin-right: auto;
     margin-left: auto;
+    min-width: 1280px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .form-text {
