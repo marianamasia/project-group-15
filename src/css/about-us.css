@@ -1,5 +1,5 @@
 .about-us {
-  padding: 100px 0;
+  padding: 50px 0;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   color: #1b414b;
@@ -7,8 +7,8 @@
   letter-spacing: -0.02em;
 }
 .container-about-us {
-  max-width: 320px;
-  padding: 0;
+  width: 100%;
+  padding: 0 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -16,7 +16,6 @@
   flex-direction: column;
   border-radius: 24px;
   background: #fbfbfb;
-  margin: 0 auto 14px;
 }
 
 .text-about-us {
@@ -82,8 +81,9 @@
   }
   .technology-about-us {
     font-size: 23px;
-    padding: 0 0 20px 0;
-    margin: 0;
+
+    padding: 0;
+    margin: 0 0 20px 0;
   }
 }
 
@@ -116,8 +116,8 @@
 
   .technology-about-us {
     font-size: 24px;
-    padding-bottom: 20px;
-    margin: 0;
+
+    margin: 0 0 20px 0;
   }
 
   .selection-about-us {
@@ -128,3 +128,4 @@
   }
 }
 /* ++++++++++++++END-ABOUT-US-STYLES++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
