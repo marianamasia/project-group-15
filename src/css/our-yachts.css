@@ -187,7 +187,6 @@
   }
   .our-yachts-list {
     width: calc((100% - 25px) / 3);
-    max-width: 1280px;
   }
   .our-yachts {
     gap: 25px;
@@ -195,9 +194,6 @@
   .our-yachts-picture {
     width: 377px;
     height: 268px;
-  }
-  .our-yachts-name:after {
-    width: 313px;
   }
   .our-yachts-yakir-conteiner:hover {
     background-color: #fbfbfb;
@@ -214,5 +210,21 @@
     font-size: 18px;
     line-height: 110%;
     padding: 16px 39px;
+  }
+  @media screen and (min-width: 1440px) {
+    .our-yachts-container {
+      max-width: 1440px;
+      padding: 75px 100px;
+    }
+    .our-yachts-list {
+      width: calc((100% - 32px) / 3);
+    }
+    .our-yachts {
+      gap: 32px;
+    }
+    .our-yachts-picture {
+      width: 392px;
+      height: 268px;
+    }
   }
 }
