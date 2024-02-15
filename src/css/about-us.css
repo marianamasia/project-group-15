@@ -51,6 +51,10 @@
   opacity: 0.4;
 }
 
+.about-us-img {
+  border-radius: 24px;
+}
+
 /* =================MEDIA-TABLET==================== */
 @media screen and (min-width: 768px) {
   .container-about-us {
