@@ -109,7 +109,9 @@
     padding: 0 120px 0 120px;
     margin: 0 auto;
   }
-
+.user-form {
+  height: 54px;
+}
   .user-form::placeholder,
   .form-comment::placeholder {
     font-size: 14px;
