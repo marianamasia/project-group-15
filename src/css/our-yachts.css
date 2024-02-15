@@ -216,29 +216,3 @@
     padding: 16px 39px;
   }
 }
-@media screen and (min-width: 1280px) {
-  .our-yachts-container {
-    width: 1280px;
-  }
-  .our-yachts-title {
-    padding: 75px 233px;
-    margin-bottom: 0;
-  }
-  .our-yachts-list-three {
-    display: block;
-  }
-  .our-yachts-list {
-    width: calc((100% - 25px) / 3);
-    max-width: 1280px;
-  }
-  .our-yachts {
-    gap: 25px;
-  }
-  .our-yachts-picture {
-    width: 377px;
-    height: 268px;
-  }
-  .our-yachts-name:after {
-    width: 313px;
-  }
-}
