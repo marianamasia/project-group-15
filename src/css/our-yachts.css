@@ -34,7 +34,8 @@
   height: 100%;
   padding: 16px 16px 0 16px;
 }
-
+.our-yachts-img {
+}
 .our-yachts-name {
   font-size: 12px;
   line-height: 1.17;
@@ -193,7 +194,6 @@
   }
   .our-yachts-picture {
     width: 377px;
-    height: 268px;
   }
   .our-yachts-yakir-conteiner:hover {
     background-color: #fbfbfb;
@@ -224,7 +224,6 @@
     }
     .our-yachts-picture {
       width: 392px;
-      height: 268px;
     }
   }
 }
