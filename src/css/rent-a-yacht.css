@@ -153,6 +153,7 @@
   }
 
   .form-text {
+    margin-top: 10px;
     padding: 0;
     order: 2;
     flex: 1;
