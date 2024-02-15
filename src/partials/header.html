@@ -14,7 +14,7 @@
         </li>
       </ul>
     </nav>
-    <button class="mobile-menu-open-btn" type="button">
+    <button class="mobile-menu-open-btn" mob-modal-open type="button">
       <svg
         class="mobile-menu-open-btn-icon"
         width="28"
@@ -73,10 +73,10 @@
   </div>
 
   <!-- MOBILE MENU -->
-  <div class="mobile-menu-wrapper is-open">
+  <div class="mobile-menu-wrapper" id="mobModal" mob-modal>
     <div class="mobile-menu-wrapper-countainer">
       <a class="header-link-logo" href="./index.html">yachtjet</a>
-      <button class="mobile-menu-close-btn">
+      <button mob-modal-close class="mobile-menu-close-btn">
         <svg
           class="mobile-menu-close-btn-icon"
           width="16"
@@ -111,8 +111,8 @@
           >
             <svg
               class="mobile-menu-social-icon"
-              width="24"
-              height="24"
+              width="20"
+              height="20"
               aria-label="instagram icon"
             >
               <use href="/img/icons-svg.svg#icon-instagram"></use>
@@ -126,8 +126,8 @@
           >
             <svg
               class="mobile-menu-social-icon"
-              width="24"
-              height="24"
+              width="20"
+              height="20"
               aria-label="youtube icon"
             >
               <use href="/img/icons-svg.svg#icon-youtube"></use></svg
@@ -140,8 +140,8 @@
           >
             <svg
               class="mobile-menu-social-icon"
-              width="24"
-              height="24"
+              width="20"
+              height="20"
               aria-label="facebook icon"
             >
               <use href="/img/icons-svg.svg#icon-facebook"></use>
