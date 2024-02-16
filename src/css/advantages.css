@@ -71,6 +71,7 @@
 /* ----------------------------------------------------------------- */
 
 /* ------------------------------Tablet-advantages------------------------ */
+
 @media screen and (min-width: 768px) {
 .advantages {
     padding-bottom: 150px;
@@ -119,6 +120,7 @@
 /* ----------------------------------------------------------------- */
 
 /* ------------------------------Desktop-advantages----------------------- */
+
 @media screen and (min-width: 1280px) {
 
  .advantages-container {
@@ -136,7 +138,11 @@
   }
 
   .advantages-list {
-    gap: 32px;
+    row-gap: 44px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
   }
 
   .advantages-item {

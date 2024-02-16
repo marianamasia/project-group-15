@@ -106,7 +106,7 @@
     padding-right: 50px;
 }
   .reviews-title {
-    padding: 0 163px;
+    padding: 0 160px;
   }
   .reviews-info {
     padding: 0 305px;
@@ -129,20 +129,20 @@
 @media screen and (min-width: 1440px) {
   .reviews-conteiner {
     width: 1440px;
-    padding: 150px 100px;
+    padding: 75px 100px;
   }
   .reviews-list {
-    max-width: 1440px;
+    max-width: 1240px;
     gap: 32px;
   }
   .reviews-item {
     width: calc((100% - 32px) / 3);
   }
   .reviews-title {
-    padding: 0 193px;
+    padding: 0 115px;
   }
   .reviews-info {
-    padding: 0 335px;
+    padding: 0 255px;
   }
   .reviews-item-three {
     padding: 32px 41px;
