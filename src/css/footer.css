@@ -1,16 +1,14 @@
 .footer {
-  padding-top: 40px 20px 0;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 40px 10px 0;
 }
 .footer-container {
   display: flex;
   flex-direction: column;
   background-color: #1b414b;
   border-radius: 24px 24px 0 0;
-  margin: 0 10px;
-
-  max-width: 320px;
+  max-width: 355px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-header {
@@ -132,9 +130,13 @@
 }
 
 /* tablet (768px) */
-@media only screen and (min-width: 376px) and (max-width: 768px) {
+@media only screen and (min-width: 767px) and (max-width: 1279px) {
+  .footer {
+    padding: 75px 16px 0;
+  }
+
   .footer-container {
-    max-width: 768px;
+    max-width: 736px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -168,14 +170,19 @@
   }
 
   .footer-text {
+    font-size: 14px;
     margin-inline-end: 32px;
   }
 }
 
 /* desktop (1280px) */
-@media only screen and (min-width: 769px) and (max-width: 1280px) {
+@media only screen and (min-width: 1280px) {
+  .footer {
+    padding: 75px 25px 0;
+  }
+
   .footer-container {
-    max-width: 1280px;
+    max-width: 1230px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -209,14 +216,19 @@
   }
 
   .footer-text {
+    font-size: 14px;
     margin-inline-end: 32px;
   }
 }
 
 /* desktop (1440px) */
-@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+@media only screen and (min-width: 1440px) {
+  .footer {
+    padding: 75px 25px 0;
+  }
+
   .footer-container {
-    max-width: 1440px;
+    max-width: 1390px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -250,6 +262,7 @@
   }
 
   .footer-text {
+    font-size: 14px;
     margin-inline-end: 32px;
   }
 }
