@@ -1,11 +1,14 @@
-.rent-container {
+.section{
+  padding-bottom: 80px;
+
+}
+.rent-container{
   min-width: 320px;
-  max-width: 375px;
-  width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 40px;
-  margin: 0 auto;
+    max-width: 375px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
 }
 
 .rent-title {
@@ -22,13 +25,14 @@
 }
 
 .user-form {
+  color: #fbfbfb;
   width: 100%;
   height: 42px;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
   outline: transparent;
   background-color: transparent;
-  padding-left: 18px;
+  padding: 14px 18px;
   margin-bottom: 18px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -53,10 +57,9 @@
   height: 108px;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
-  padding-top: 14px;
+  padding: 14px 14px ;
   outline: transparent;
   background-color: transparent;
-  padding-left: 18px;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -87,23 +90,27 @@
   background-color: #fbfbfb;
   color: #1b414b;
 }
-
-.rent-img {
+.picture-rent{
+  display: flex;
   margin-top: 80px;
+}
+.rent-img {
   width: 100%;
   border-radius: 24px;
 }
 
 @media screen and (min-width: 768px) {
-  .rent-title {
+.section {
+  padding-bottom: 150px;
+}
+.rent-container {
+  max-width: 768px;
+}
+
+.rent-title {
     font-size: 48px;
     margin-bottom: 50px;
-  }
-
-  .rent-container {
-    max-width: 768px;
-    padding: 0;
-  }
+}
 
   .form-text {
     padding: 0 120px 0 120px;
@@ -120,13 +127,11 @@
 
   .form-comment {
     height: 116px;
-    padding-top: 18px;
-  }
-
-  .rent-img {
-    margin-bottom: 75px;
+  padding: 18px 18px;  
+}
+.picture-rent {
     margin-top: 100px;
-  }
+}
 
   .submit-btn-rent {
     min-width: 194px;
@@ -138,31 +143,23 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .rent-container {
-    max-width: 1280px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
 
-  .rent-container {
-    display: flex;
-    align-items: center;
-    margin-right: auto;
-    margin-left: auto;
+.rent-container {
     min-width: 1280px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
+      padding-left: 50px;
+      padding-right: 50px;
+      display: flex;
+      align-items: center;
+}
   .form-text {
-    margin-top: 10px;
     padding: 0;
     order: 2;
     flex: 1;
-    padding-left: 50px;
+    margin-left: 50px;
   }
 
   .picture-rent {
+    margin-top: 0;
     display: inline-block;
   }
 

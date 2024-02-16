@@ -1,12 +1,16 @@
 /* ------------------------------Mobile-advantages------------------------ */
-
+.advantages{
+  padding-bottom: 80px;
+}
 .advantages-container {
-  padding: 40px 20px 80px 20px;
+  display: flex;
+  flex-direction: column;
   min-width: 320px;
   max-width: 375px;
-  flex-direction: column;
-  margin: 0 auto;
   width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
 }
 
 .advantages-list-wrapper {
@@ -69,11 +73,14 @@
 /* ------------------------------Tablet-advantages------------------------ */
 
 @media screen and (min-width: 768px) {
-  .advantages-container {
-    max-width: 768px;
-    padding: 75px 32px 150px 32px;
+.advantages {
+    padding-bottom: 150px;
   }
-
+ .advantages-container {
+ min-width: 768px;
+  padding-left: 32px;
+  padding-right: 32px;     
+ }
   .advantages-list-wrapper {
     padding: 90px 32px;
     margin-bottom: 32px;
@@ -115,13 +122,14 @@
 /* ------------------------------Desktop-advantages----------------------- */
 
 @media screen and (min-width: 1280px) {
-  .advantages-container {
-    max-width: 1280px;
-    padding: 75px 50px 150px 50px;
-    display: flex;
-    flex-direction: row;
+
+ .advantages-container {
+      max-width: 1280px;
+        padding-left: 50px;
+        padding-right: 50px;
+  flex-direction: row;
     column-gap: 32px;
-  }
+ }  
 
   .advantages-list-wrapper {
     padding: 90px 50px;
