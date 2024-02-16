@@ -9,13 +9,17 @@
   margin-right: auto;
   max-width: 335px;
   min-width: 320px;
+  max-width: 375px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
 }
 
 .text-foto-about-us {
   flex-direction: column;
   border-radius: 24px;
   background: #fbfbfb;
-  margin: 0 auto 14px;
   position: relative;
   top: -59px;
 }
@@ -53,9 +57,11 @@
 
 /* =================MEDIA-TABLET==================== */
 @media screen and (min-width: 768px) {
-  .container-about-us {
-    max-width: 768px;
-    padding: 0 32px;
+.about-us {
+    padding-bottom: 150px;
+    max-width: 768px;    
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .text-foto-about-us {
@@ -91,10 +97,12 @@
 }
 /* ==================MEDIA-DESK====================== */
 @media screen and (min-width: 1280px) {
-  .container-about-us {
+.about-us {
     max-width: 1280px;
-    padding: 0 50px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
+
   .text-foto-about-us {
     position: relative;
     top: -25px;
