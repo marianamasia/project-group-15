@@ -47,8 +47,8 @@
   /* color: #fbfbfb; */
 }
 
-.footer-nav-item:hover,
-.footer-nav-item:focus {
+.footer-nav-link:hover,
+.footer-nav-link:focus {
   background-color: #fbfbfb;
   color: #1b414b;
 }
