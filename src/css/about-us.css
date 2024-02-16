@@ -1,13 +1,8 @@
 /* +++++++++++ABOUT-US-STYLES+++++++++++++++ */
 .about-us {
-  padding-top: 0;
-  padding-bottom: 0;
+padding-bottom: 80px;
 }
 .container-about-us {
-  padding: 0 20px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 335px;
   min-width: 320px;
   max-width: 375px;
   width: 100%;
@@ -20,12 +15,12 @@
   flex-direction: column;
   border-radius: 24px;
   background: #fbfbfb;
-  position: relative;
-  top: -59px;
+  margin-top: -59px;
 }
 
 .text-about-us {
-  padding: 40px 15px;
+  padding: 40px 15px 0;
+  margin-bottom: 40px;
 }
 
 .adventure-about-us {
@@ -59,35 +54,36 @@
 @media screen and (min-width: 768px) {
 .about-us {
     padding-bottom: 150px;
-    max-width: 768px;    
-    padding-left: 32px;
-    padding-right: 32px;
   }
 
+.container-about-us{
+    max-width: 768px;
+      padding-left: 32px;
+      padding-right: 32px;
+}
   .text-foto-about-us {
-    flex-direction: row;
-    position: relative;
-    top: -67px;
+    margin-top: -67px;
   }
 
   .text-about-us {
-    padding: 50px 0 50px 32px;
-  }
+    padding: 50px 0 0 32px ;
+    margin-bottom: 50px;
+  } 
 
   .adventure-about-us {
     font-size: 48px;
     margin: 0;
-    padding: 0 136px 50px 0;
+    margin-bottom: 50px;
+   max-width: 536px;
   }
 
   .small-text-about-us {
-    padding: 0 283px 0 0;
-  }
+    max-width: 389px;
+    }
 
   .technology-about-us {
     font-size: 23px;
-    padding-bottom: 20px;
-    margin: 0;
+    margin-bottom: 20px;
   }
 
   .selection-about-us {
@@ -97,35 +93,30 @@
 }
 /* ==================MEDIA-DESK====================== */
 @media screen and (min-width: 1280px) {
-.about-us {
-    max-width: 1280px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
 
+.container-about-us {
+  min-width: 1280px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
   .text-foto-about-us {
     position: relative;
-    top: -25px;
+    margin-top: -25px;
   }
 
   .text-about-us {
     justify-content: space-between;
     display: flex;
-    padding: 50px 50px 100px 50px;
+   padding: 50px 50px 0;
+    margin-bottom: 100px;  
   }
-
+       
   .adventure-about-us {
-    margin-right: 189px;
-    padding: 0 0 66px 0;
+    max-width: 537px;
   }
 
   .small-text-about-us {
-    padding: 0;
-    width: 364px;
-  }
-
-  .technology-about-us {
-    padding: 0 0 20px 0;
+      max-width: 389px;  
   }
 
   .selection-about-us {

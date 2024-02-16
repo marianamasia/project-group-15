@@ -1,5 +1,8 @@
 .section{
   padding-bottom: 80px;
+
+}
+.rent-container{
   min-width: 320px;
     max-width: 375px;
     width: 100%;
@@ -7,7 +10,6 @@
     padding-right: 20px;
     margin: 0 auto;
 }
-
 
 .rent-title {
   font-weight: 500;
@@ -100,9 +102,11 @@
 @media screen and (min-width: 768px) {
 .section {
   padding-bottom: 150px;
+}
+.rent-container {
   max-width: 768px;
 }
-  
+
 .rent-title {
     font-size: 48px;
     margin-bottom: 50px;
@@ -140,15 +144,12 @@
 
 @media screen and (min-width: 1280px) {
 
-.section {
+.rent-container {
     min-width: 1280px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.rent-container{
-  display: flex;
-  align-items: center;
-
+      padding-left: 50px;
+      padding-right: 50px;
+      display: flex;
+      align-items: center;
 }
   .form-text {
     padding: 0;
