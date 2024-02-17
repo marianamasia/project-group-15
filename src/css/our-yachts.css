@@ -1,7 +1,7 @@
-.our-yachts-section{
-    padding-bottom: 80px;  
+.our-yachts-section {
+  padding-bottom: 80px;
 }
-.our-yachts-container{
+.our-yachts-container {
   min-width: 320px;
   max-width: 375px;
   width: 100%;
@@ -100,6 +100,8 @@
   align-items: center;
   width: 141px;
   padding: 14px 32px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-yachts-yakir:hover,
@@ -107,7 +109,10 @@
   color: #1b414b;
   background-color: #fbfbfb;
 }
-
+.our-yachts-yakir:focus {
+  color: #1b414b;
+  background-color: #fbfbfb;
+}
 .our-yachts-list-two {
   display: none;
 }
@@ -116,15 +121,14 @@
 }
 
 @media screen and (min-width: 768px) {
-.our-yachts-section {
+  .our-yachts-section {
     padding-bottom: 150px;
-  
   }
-.our-yachts-container {
-  max-width: 768px;
+  .our-yachts-container {
+    max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
-}
+  }
   .our-yachts-list-two {
     display: block;
   }
@@ -171,11 +175,11 @@
   }
 }
 @media screen and (min-width: 1280px) {
-.our-yachts-container {
+  .our-yachts-container {
     min-width: 1280px;
-      padding-left: 50px;
-      padding-right: 50px;
-}
+    padding-left: 50px;
+    padding-right: 50px;
+  }
   .our-yachts-title {
     padding: 0 233px 75px 233px;
     margin-bottom: 0;
